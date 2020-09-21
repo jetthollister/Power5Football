@@ -20,7 +20,7 @@ A quantitative analysis and redistribution of five football conferences within t
 
 ### Performance
 
-The k-means algorithm was able to group Power 5 conference schools into their correct conference with 79.69% accuracy. The algorithm likely struggled to reach a higher accuracy because football programs have repeatedly moved conferences and developed disproportionately, which made reaching 100% accuracy nearly impossible for the algorithm. It also struggled to place smaller-market schools (Vanderbilt) into their large-market conferences (SEC), but was able to capitalize on location similarities (Pac-12).
+The k-means algorithm was able to group Power 5 conference schools into their correct conference with **79.69% accuracy**. The algorithm likely struggled to reach a higher accuracy because football programs have repeatedly moved conferences and developed disproportionately, which made reaching 100% accuracy nearly impossible for the algorithm. It also struggled to place smaller-market schools (Vanderbilt) into their large-market conferences (SEC), but was able to capitalize on location similarities (Pac-12).
 
 <p align="center">
   <img src="https://github.com/jetthollister/Power5Football/blob/master/pics/Power%205%20Conference%20Distributions%20with%20Independets.png" width="750" />
