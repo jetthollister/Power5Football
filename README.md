@@ -1,7 +1,7 @@
 # Power 5 Football Conferences
 A quantitative analysis and redistribution of the NCAA  Division I football athletic conferences
 
-## Problem Overview
+## Overview
 
 ### Understanding the Power 5
 
@@ -9,11 +9,11 @@ The Power 5 refers to five football conferences within the Football Bowl Subdivi
 
 Once an accurate clustering process had been generated, the algorithm was used to assign FBS independent programs, four-year institutions whose programs are not included in an NCAA-affiliated conference, to a Power 5 conference. These schools (University of Massachusetts-Amherst, Brigham Young University (BYU) and the University of Notre Dame) currently play against programs within the Power 5 conferences despite the fact that they are not members.
 
-#### Redesigning the Power 5
+### Redesigning the Power 5
 
 Coming to an understanding on the factors that define the Power 5 structure also resulted in having a better grasp of its flaws. With these in mind, a new structure for the Power 5, both on a macro and micro scale, was explored. Through combination of athletic and academic data, an original set of criteria was conceived, and the current Power 5 schools were redistributed according to the new logic. 
 
-### Datasets
+## Datasets
 
 #### [Integrated Postsecondary Education Data System](https://nces.ed.gov/ipeds/datacenter/InstitutionByName.aspx?goToReportId=1)
 
