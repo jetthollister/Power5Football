@@ -39,7 +39,7 @@ Provides 145 team statistics for all 130 NCAA FBS level teams, including offensi
 
 - Scaling: To prevent large-valued features from dominating the decision-making, features were scaled to ensure that all criteria contributed equally. Min-Max scaling (below), also referred to as normalization, scaled the data to values between 0 and 1. While this suppressed range can reduce the impact of outliers, it ensured the algorithm’s decision making was not skewed by large features.
 
-<img src="https://www.codecogs.com/eqnedit.php?latex=X_{sc}=\frac{X-X_{min}}{X_{max}-X_{min}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?    X_{sc}=\frac{X-X_{min}}{X_{max}-X_{min}}" title="X_{sc}=\frac{X-X_{min}}{X_{max}-X_{min}}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=X_{sc}=\frac{X-X_{min}}{X_{max}-X_{min}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?X_{sc}=\frac{X-X_{min}}{X_{max}-X_{min}}" title="X_{sc}=\frac{X-X_{min}}{X_{max}-X_{min}}" /></a>
 
 - Weighting: Since the features were normalized, weights were able to be applied to individual measures to increase their respective share on the clustering algorithm’s decision making. To fine tune these weights, a scoring metric was devised to gauge how well a combination of weights grouped schools. The metric, which found the percentage of schools that were assigned to the correct conference, allowed weights to be optimized by an exhaustive search.
 
